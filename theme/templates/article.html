@@ -56,11 +56,20 @@
 
     <h2>Info</h2>
     <ul class="list-group">
+
         {% if article.tags and "OA" in article.tags %}
-        <li class="list-group-item active">
-        <i class="fa fa-unlock-alt fa-fw" title="Open-access article"></i>
-        Open-Access
-        </li>
+            <li class="list-group-item active">
+            <i class="fa fa-unlock-alt fa-fw" title="Open-access article"></i>
+            Open-Access
+            </li>
+        {% endif %}
+
+        {% if article.tags and "expanded" in article.tags %}
+            <li class="list-group-item active">
+            <i class="fa fa-file-text fa-fw" title="Expanded abstract or short
+                paper available"></i>
+            Expanded abstract | Short paper
+            </li>
         {% endif %}
 
         {% if article.type %}
@@ -142,6 +151,7 @@
         {% if article.pdf %}
             <li class="list-group-item">
             <i class="fa fa-file-pdf-o fa-fw" title="Paper PDF"></i>
+            Article PDF:
             <a href="{{SITEURL}}/pdf/{{article.pdf}}">{{article.pdf}}</a>
             </li>
         {% endif %}

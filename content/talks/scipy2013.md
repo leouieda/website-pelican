@@ -9,6 +9,7 @@ slug: scipy2013
 doi: 10.6084/m9.figshare.708390
 thumbnail: images/thumb/scipy2013.png
 citation: Uieda, L., V. C. Oliveira Jr and V. C. F. Barbosa (2013), Modeling the Earth with Fatiando a Terra, Proceedings of the 12th Python in Science Conference, pp. 90-96
+tags: expanded
 
 ## Presentation
 
