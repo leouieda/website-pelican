@@ -1,12 +1,13 @@
 from __future__ import unicode_literals
-import os
 import subprocess
 import datetime
 
 AUTHOR = u'Leonardo Uieda'
 SITETITLE = u"LEONARDO <b>UIEDA</b>"
 SITENAME = u"Leonardo Uieda"
-SITEKEYWORDS = u'geophysics, earth, earthscience, science, foss, scientific software'
+SITEKEYWORDS = ', '.join([
+    'science', 'geoscience', 'geophysics', 'earth', 'software', 'open-source'
+    ])
 SITEURL = ''
 REPOURL = 'https://github.com/leouieda/website'
 DESCRIPTION = """
@@ -108,7 +109,8 @@ MENUITEMS = [
      'https://github.com/leouieda'),
     ('<i class="fa fa-twitter fa-lg" title="Twitter"></i>',
      'https://twitter.com/leouieda'),
-    ('<i class="fa fa-rss fa-lg" title="RSS feed for papers and talks"></i>', '/rss.xml'),
+    ('<i class="fa fa-rss fa-lg" title="RSS feed for papers and talks"></i>',
+     '/rss.xml'),
 ]
 
 CATEGORY_HEADERS = [
@@ -139,7 +141,7 @@ CATEGORY_HEADERS = [
     ['papers', """
     <p>
     Publications marked with a
-    <i class="fa fa-unlock-alt"></i> are
+    <i class="ai ai-open-access"></i> are
     <a href="https://en.wikipedia.org/wiki/Open_access">open-access (OA)</a>.
     I have made available links for you to download free PDFs from all non-OA
     publications.
