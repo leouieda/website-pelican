@@ -8,6 +8,17 @@ journal: Geophysics
 thumbnail: images/thumb/paper-polynomial-eqlayer-2013.png
 citation: Oliveira Jr, V. C., V. C. F. Barbosa, and L. Uieda (2013), Polynomial equivalent layer, Geophysics, 78(1), G1–G13, doi:10.1190/geo2012-0196.1
 
+## Open-source implementation
+
+The Polynomial Equivalent Layer (PEL) is implemented in the open-source Python
+library [Fatiando a Terra](http://www.fatiando.org).
+There are two classes for running the PEL in module `fatiando.gravmag.eqlayer`:
+`PELGravity` for fitting gravitational field components and
+`PELTotalField` for fitting the total field magnetic anomaly.
+Both classes were introduced in
+[version 0.2](http://www.fatiando.org/changelog.html#version-0-2)
+of the library.
+
 ## Abstract
 
 We have developed a new cost-effective method for processing
