@@ -24,6 +24,12 @@ and the code repository of this paper
 ([pinga-lab/Total-magnetization-of-spherical-bodies](https://github.com/pinga-lab/Total-magnetization-of-spherical-bodies))
 for more information about using this class.
 
+## Open peer-review
+
+This paper has undergone open peer-review.
+The original submission, reviews, and replies can be viewed at
+[doi:10.5194/npgd-1-1465-2014](http://dx.doi.org/10.5194/npgd-1-1465-2014).
+
 ## Abstract
 
 We have developed a fast total-field anomaly inversion to estimate the
@@ -51,12 +57,6 @@ non-outcropping sources near to the alkaline complex of Diorama have almost the
 same magnetization direction of those ones in the alkaline complex of Montes
 Claros de Goiás, strongly suggesting that these sources have been emplaced in
 the crust within almost the same geological time interval.
-
-## Review
-
-This paper has undergone open peer-review.
-The original submission, reviews, and replies can be viewed at
-[doi:10.5194/npgd-1-1465-2014](http://dx.doi.org/10.5194/npgd-1-1465-2014).
 
 ## Bibtex
 
