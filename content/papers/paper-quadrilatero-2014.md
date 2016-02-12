@@ -8,6 +8,17 @@ doi: 10.1016/j.oregeorev.2014.02.011
 thumbnail: images/thumb/paper-quadrilatero-2014.png
 citation: Carlos, D. U., L. Uieda, and V. C. F. Barbosa (2014), Imaging iron ore from the Quadrilátero Ferrífero (Brazil) using geophysical inversion and drill hole data, Ore Geology Reviews, 61, 268-285, doi:10.1016/j.oregeorev.2014.02.011
 
+## Open-source implementation
+
+This paper uses the planting inversion proposed in
+[our 2012 paper]({filename}/papers/paper-planting-anomalous-densities-2012.md).
+We used the implementation in the open-source
+[Fatiando a Terra](http://www.fatiando.org) Python library
+(the `fatiando.gravmag.harvester` module).
+The module was introduced in
+[version 0.1](http://www.fatiando.org/changelog.html#version-0-1)
+of the library.
+
 ## Abstract
 
 The Quadrilátero Ferrífero in southeastern Brazil hosts one of the largest
