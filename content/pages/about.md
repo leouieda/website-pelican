@@ -73,14 +73,8 @@ data in the following sites (yes, I'm a bit of an early adopter):
 </li>
 
 <li>
-<a href="http://figshare.com/authors/Leonardo%20Uieda/97471">
-<i class="ai ai-figshare-square fa-3x" title="figshare"></i>
-</a>
-</li>
-
-<li>
-<a href="http://impactstory.org/leouieda">
-<i class="ai ai-impactstory-square fa-3x" title="ImpactStory"></i>
+<a href="http://orcid.org/0000-0001-6123-9515">
+<i class="ai ai-orcid-square fa-3x" title="ORCID"></i>
 </a>
 </li>
 
@@ -91,8 +85,14 @@ data in the following sites (yes, I'm a bit of an early adopter):
 </li>
 
 <li>
-<a href="http://orcid.org/0000-0001-6123-9515">
-<i class="ai ai-orcid-square fa-3x" title="ORCID"></i>
+<a href="http://figshare.com/authors/Leonardo%20Uieda/97471">
+<i class="ai ai-figshare-square fa-3x" title="figshare"></i>
+</a>
+</li>
+
+<li>
+<a href="http://impactstory.org/leouieda">
+<i class="ai ai-impactstory-square fa-3x" title="ImpactStory"></i>
 </a>
 </li>
 
@@ -219,16 +219,6 @@ Para os brasileiros, aqui está o link para meu
 </div>
 <div class="col-md-4">
 
-<h3>International <b>Exchange</b> Program</h3>
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-calendar fa-fw"></i>
-    2008-2009
-</li>
-<li><i class="fa-li fa fa-university fa-fw"></i>
-    <a href="http://www.yorku.ca/esse/">York University, Toronto, Canada</a>
-</li>
-</ul>
-
 <h3><b>BSc</b> in Geophysics</h3>
 
 <ul class="fa-ul">
@@ -259,6 +249,16 @@ Para os brasileiros, aqui está o link para meu
             <a href="https://github.com/leouieda/simposio-iag-2008">leouieda/simposio-iag-2008</a>
         </li>
     </ul>
+</ul>
+
+<h3>International <b>Exchange</b> Program</h3>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-calendar fa-fw"></i>
+    2008-2009
+</li>
+<li><i class="fa-li fa fa-university fa-fw"></i>
+    <a href="http://www.yorku.ca/esse/">York University, Toronto, Canada</a>
+</li>
 </ul>
 
 </div>
