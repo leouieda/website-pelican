@@ -15,8 +15,14 @@ citation: Oliveira Jr., V. C., D. P. Sales, V. C. F. Barbosa, and L. Uieda (2015
 The method described in this article has been implemented in the open-source
 geophysics library [Fatiando a Terra](http://www.fatiando.org).
 The method was first introduced in
-[version 0.3](http://dx.doi.org/10.5281/zenodo.16205)
-as the `fatiando.gravmag.magdir.DipoleMagDir` class.
+[version 0.3](http://www.fatiando.org/changelog.html#version-0-3)
+as the `fatiando.gravmag.magdir.DipoleMagDir` class
+(see [PR 87](https://github.com/fatiando/fatiando/pull/87)
+for the full development history of this implementation).
+See the project documentation
+and the code repository of this paper
+([pinga-lab/Total-magnetization-of-spherical-bodies](https://github.com/pinga-lab/Total-magnetization-of-spherical-bodies))
+for more information about using this class.
 
 ## Abstract
 
