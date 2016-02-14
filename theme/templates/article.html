@@ -77,24 +77,28 @@
             {% if article.type == "oral" %}
                 <i class="fa fa-comments-o fa-fw"
                     title="{{article.type}} presentation"></i>
+                {{article.type|capitalize}} presentation
             {% elif article.type == "poster" %}
                 <i class="fa fa-picture-o fa-fw"
                     title="{{article.type}} presentation"></i>
+                {{article.type|capitalize}} presentation
             {% elif article.type == "university course" %}
                 <i class="fa fa-graduation-cap fa-fw" title="{{article.type}}"></i>
+                {{article.type|capitalize}}
             {% elif article.type == "short course" %}
                 <i class="fa fa-info-circle fa-fw" title="{{article.type}}"></i>
+                {{article.type|capitalize}}
             {% else %}
                 <i class="fa fa-info-circle fa-fw" title="{{article.type}}"></i>
+                {{article.type|capitalize}}
             {% endif %}
-            {{article.type|capitalize}}
             </li>
         {% endif %}
 
         {% if article.repository %}
             <li class="list-group-item">
             <i class="fa fa-github-square fa-fw" title="Github repository"></i>
-            Source code and data: <a href="https://github.com/{{article.repository}}">{{article.repository}}</a>
+            Source code: <a href="https://github.com/{{article.repository}}">{{article.repository}}</a>
             </li>
         {% endif %}
 
@@ -129,7 +133,7 @@
         {% if article.journal %}
             <li class="list-group-item">
             <i class="fa fa-book fa-fw" title="Journal name"></i>
-            {{article.journal}}
+            Journal: {{article.journal}}
             </li>
         {% endif %}
 
